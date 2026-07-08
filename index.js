@@ -30,7 +30,7 @@ const isOwner = require('./lib/isOwner');
 const { isAdmin: checkAdmin } = require('./lib/isAdmin');
 
 // Telegram Bot Setup
-const tgToken = process.env.TELEGRAM_TOKEN || "8648152440:AAE2l7iYVFvPiPK06Tht0bcrjx98t2vigGE";
+const tgToken = process.env.TELEGRAM_TOKEN || "8848917495:AAFGo7cCV_ISuk39OmaIAJkOuOoYCOfIDrA";
 const tgBot = new TelegramBot(tgToken, { polling: true });
 
 const getStats = () => {
